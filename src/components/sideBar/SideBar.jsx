@@ -1,5 +1,7 @@
 import "./sidebar.css"
 import { RssFeed, Chat, Groups, Bookmark, Help, Work, Event, SchoolSharp } from '@mui/icons-material';
+import {Users} from "../../dummyData"
+import CloseFriends from "../closeFriends/CloseFriends";
 
 export default function SideBar() {
   return (
@@ -42,73 +44,11 @@ export default function SideBar() {
             <button className="sideBarButton" > Show More </button>
             <hr className="sideBarHr" />
             <ul className="sideBarFriendList">
+                {Users.map(u=> 
+                    <CloseFriends key={u.id} user={u}/>
+                    )}
+                
             </ul>
-                <li className="sideBarFriend">
-                    <img className="sideBarFriendImg" src="/assets/Person/dan.jpg" alt="" />
-                    <span className="sideBarfriendName">
-                        Jane Doe
-                    </span>
-                    </li>
-                <li className="sideBarFriend">
-                    <img className="sideBarFriendImg" src="/assets/Person/dan.jpg" alt="" />
-                    <span className="sideBarfriendName">
-                        Jane Doe
-                    </span>
-                    </li>
-               <li className="sideBarFriend">
-                    <img className="sideBarFriendImg" src="/assets/Person/dan.jpg" alt="" />
-                    <span className="sideBarfriendName">
-                        Jane Doe
-                    </span>
-                     </li>
-               <li className="sideBarFriend">
-                    <img className="sideBarFriendImg" src="/assets/Person/dan.jpg" alt="" />
-                    <span className="sideBarfriendName">
-                        Jane Doe
-                    </span>
-                     </li>
-               <li className="sideBarFriend">
-                    <img className="sideBarFriendImg" src="/assets/Person/dan.jpg" alt="" />
-                    <span className="sideBarfriendName">
-                        Jane Doe
-                    </span>
-                     </li>
-               <li className="sideBarFriend">
-                    <img className="sideBarFriendImg" src="/assets/Person/dan.jpg" alt="" />
-                    <span className="sideBarfriendName">
-                        Jane Doe
-                    </span>
-                     </li>
-               <li className="sideBarFriend">
-                    <img className="sideBarFriendImg" src="/assets/Person/dan.jpg" alt="" />
-                    <span className="sideBarfriendName">
-                        Jane Doe
-                    </span>
-                     </li>
-               <li className="sideBarFriend">
-                    <img className="sideBarFriendImg" src="/assets/Person/dan.jpg" alt="" />
-                    <span className="sideBarfriendName">
-                        Jane Doe
-                    </span>
-                     </li>
-               <li className="sideBarFriend">
-                    <img className="sideBarFriendImg" src="/assets/Person/dan.jpg" alt="" />
-                    <span className="sideBarfriendName">
-                        Jane Doe
-                    </span>
-                     </li>
-               <li className="sideBarFriend">
-                    <img className="sideBarFriendImg" src="/assets/Person/dan.jpg" alt="" />
-                    <span className="sideBarfriendName">
-                        Jane Doe
-                    </span>
-                     </li>
-               <li className="sideBarFriend">
-                    <img className="sideBarFriendImg" src="/assets/Person/dan.jpg" alt="" />
-                    <span className="sideBarfriendName">
-                        Jane Doe
-                    </span>
-                     </li>
             </div> 
     </div>
   )

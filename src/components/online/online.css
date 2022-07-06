@@ -1,6 +1,5 @@
 .rightBarContainer{
     flex: 3;
-    
 }
 
 .rightBarWrapper{
@@ -59,35 +58,4 @@
     top: -3px;
     right: 0px;
     border: 2px solid white;
-}
-.profileRightBarTitle{
-    font-size: 18px;
-    font-weight: 500;
-    margin: 10px;
-
-}
-.rightBarInfo{
-    margin-bottom: 30px;
-}
-.rightBarInfoItem{
-    margin-bottom: 10px;
-}
-.rightBarInfoKey{
-    font-weight: 500;
-    margin-right: 15px;
-    color: #555;
-}
-.rightBarInfoValue{
-    font-weight: 300;
-}
-.rightBarFollowings{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.rightBarFollowingImage{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 5px;
 }
