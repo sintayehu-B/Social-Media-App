@@ -55,17 +55,23 @@
 .postBottomLeft{
     display: flex;
     align-items: center;
-
 }
+
 .postLikeButton{
     width: 25px;
     height: 25px;
     margin-right: 5px;
     cursor: pointer;
 }
+
 .postLikeCounter{
     font-size: 15px;
 }
+
+.postIcon{
+    cursor: pointer;
+}
+
 .postCommentText{
     cursor: pointer;
     font-size: 15px;
