@@ -71,6 +71,16 @@ export default function RightBar({profile}) {
 
           </div>
           <div className="rightBarFollowing">
+            <img src="assets/Person/ermias.jpg" alt="" className="rightBarFollowingImage" />
+            <span className="rightBarFollowingName"> Ermias Asmare</span>
+
+          </div>
+          <div className="rightBarFollowing">
+            <img src="assets/Post/maruf-post.jpg" alt="" className="rightBarFollowingImage" />
+            <span className="rightBarFollowingName">Maruf Markose</span>
+
+          </div>
+          <div className="rightBarFollowing">
             <img src="assets/Person/dan.jpg" alt="" className="rightBarFollowingImage" />
             <span className="rightBarFollowingName"> Dan mekonnene</span>
           </div>
