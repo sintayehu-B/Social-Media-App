@@ -1,52 +1,52 @@
 export const Users = [
   {
     id: 1,
-    profilePicture: "assets/Post/abiy.jpg",
+    profilePicture: "Post/abiy.jpg",
     username: "Abiy Menberu",
   },
   {
     id: 2,
-    profilePicture: "assets/Person/dan.jpg",
+    profilePicture: "Person/dan.jpg",
     username: "Dan Mekonnen",
   },
   {
     id: 3,
-    profilePicture: "assets/Person/ermias.jpg",
+    profilePicture: "Person/ermias.jpg",
     username: "Ermias Asmare",
   },
   {
     id: 4,
-    profilePicture: "assets/Person/maruf.jpg",
+    profilePicture: "Person/maruf.jpg",
     username: "Maruf Sherifa",
   },
   {
     id: 5,
-    profilePicture: "assets/Person/redi_post2.jpg",
+    profilePicture: "Person/redi_post2.jpg",
     username: "Rediate Befekadu",
   },
   {
     id: 6,
-    profilePicture: "assets/Person/sintayehu.jpg",
+    profilePicture: "Person/sintayehu.jpg",
     username: "Sintayehu Sermessa",
   },
   {
     id: 7,
-    profilePicture: "assets/Person/abiy.jpg",
+    profilePicture: "Person/abiy.jpg",
     username: "Abiy Alemayew",
   },
   {
     id: 8,
-    profilePicture: "assets/Person/maruf.jpg",
+    profilePicture: "Person/maruf.jpg",
     username: "Maruf Markose",
   },
   {
     id: 9,
-    profilePicture: "assets/Person/sintayehu.jpg",
+    profilePicture: "Person/sintayehu.jpg",
     username: "Sintayehu Bokiso",
   },
   {
     id: 10,
-    profilePicture: "assets/Person/redi_post2.jpg",
+    profilePicture: "Person/redi_post2.jpg",
     username: "Rediate Techala",
   },
 ];
@@ -55,7 +55,7 @@ export const Posts = [
   {
     id: 1,
     desc: "Love For All, Hatred For None.",
-    photo: "assets/Post/abiy.jpg",
+    photo: "Post/abiy.jpg",
     date: "5 mins ago",
     userId: 1,
     like: 32,
@@ -64,7 +64,7 @@ export const Posts = [
   {
     id: 2,
     desc: "Chela kids book",
-    photo: "assets/Post/chala.jpg",
+    photo: "Post/chala.jpg",
     date: "15 mins ago",
     userId: 2,
     like: 2,
@@ -73,7 +73,7 @@ export const Posts = [
   {
     id: 3,
     desc: "Every moment is a fresh beginning.",
-    photo: "assets/Post/ermias.jpg",
+    photo: "Post/ermias.jpg",
     date: "1 hour ago",
     userId: 3,
     like: 61,
@@ -82,7 +82,7 @@ export const Posts = [
   {
     id: 4,
     desc: "Every moment is a fresh beginning.",
-    photo: "assets/Post/maruf-post.jpg",
+    photo: "Post/maruf-post.jpg",
     date: "4 hours ago",
     userId: 4,
     like: 7,
@@ -90,7 +90,7 @@ export const Posts = [
   },
   {
     id: 5,
-    photo: "assets/Post/redi_post.jpg",
+    photo: "Post/redi_post.jpg",
     desc: "Every moment is a fresh beginning.",
     date: "5 hours ago",
     userId: 5,
@@ -99,7 +99,7 @@ export const Posts = [
   },
   {
     id: 6,
-    photo: "assets/Post/blockchain.png",
+    photo: "Post/blockchain.png",
     date: "1 day ago",
     userId: 6,
     desc: "Every moment is a fresh beginning.",
@@ -109,7 +109,7 @@ export const Posts = [
   {
     id: 7,
     desc: "Never regret anything that made you smile.",
-    photo: "assets/Post/dan_post.jpg",
+    photo: "Post/dan_post.jpg",
     date: "2 days ago",
     userId: 7,
     like: 52,
@@ -117,7 +117,7 @@ export const Posts = [
   },
   {
     id: 8,
-    photo: "assets/Post/maruf-post.jpg",
+    photo: "Post/maruf-post.jpg",
     date: "3 days ago",
     desc: "Every moment is a fresh beginning.",
     userId: 8,
@@ -127,7 +127,7 @@ export const Posts = [
   {
     id: 9,
     desc: "Change the world by being yourself.",
-    photo: "assets/Post/sintayehu.jpg",
+    photo: "Post/sintayehu.jpg",
     date: "5 days ago",
     userId: 9,
     like: 11,
@@ -136,7 +136,7 @@ export const Posts = [
   {
     id: 10,
     desc: "Every moment is a fresh beginning.",
-    photo: "assets/Person/redi_post2.jpg",
+    photo: "Person/redi_post2.jpg",
     date: "1 week ago",
     userId: 10,
     like: 104,
