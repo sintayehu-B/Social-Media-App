@@ -14,8 +14,9 @@ export default function Feed({username}) {
     const fetchPosts = async() => {
       // 
       const res = username ? await axios.get("/posts/profile/" + username) : await axios.get("posts/timeline/" + user._id);
-      console.log(res.data);
-      setPosts(res.data);
+      // console.log(res.data);
+      setPosts(res.data.sort((a,b)=>{
+        return new Date(b.createdAt) - new Date(a.createdAt)}));
       
     }
     fetchPosts();

@@ -46,6 +46,6 @@
   "proxy": "http://localhost:8080/api/",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "author": "Sintayehu Sermessa",
+  "author": "Sintayehu Sermessa Bokiso",
   "license": "ISC"
 }
